@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Walkura - Products</title>
+  <link rel="stylesheet" href="products.css">
+</head>
+<body>
+  <nav class="navbar">
+    <li>
+    <a href="walkura.html">
+      <img src="walkuralogo.png" alt="Walkura Logo" class="logo" >
+    </a>
+    </li>
+    <ul>
+      <li><a href="walkura.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="account.html">Account</a></li>
+      <li><a href="cart.html">Cart (<span id="cartCount">0</span>)</a></li>
+      <li><a href="support.html">Support</a></li>
+    </ul>
+  </nav>
+
+  <section class="products">
+    <h2>All Shoes</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-img-wrap">
+         <img src="casualsneacker.jpg" alt="Casual Sneakers">
+         <span class="price-badge">Rs. 5900</span>
+        </div>
+        <h3>Nike Air</h3>
+        <p class="sizes">Sizes: 7, 8, 9, 10</p>
+        <button class="add-cart-btn" onclick="addToCart('Casual Sneakers', 5900)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-img-wrap">
+         <img src="cs2.jpg" alt="Casual Sneakers">
+         <span class="price-badge">Rs. 8900</span>
+        </div>
+        <h3>Adidas</h3>
+        <p class="sizes">Sizes: 6, 7, 8, 9, 10</p>
+        <button class="add-cart-btn" onclick="addToCart('Adidas', 8900)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-img-wrap">
+         <img src="cs3.jpg" alt="Casual Sneakers">
+         <span class="price-badge">Rs. 7900</span>
+        </div>
+        <h3>Nike</h3>
+        <p class="sizes">Sizes: 7, 8, 9, 10</p>
+        <button class="add-cart-btn" onclick="addToCart('Nike', 7900)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-img-wrap">
+         <img src="cs5.jpg" alt="Casual Sneakers">
+         <span class="price-badge">Rs. 8900</span>
+        </div>
+        <h3>Jordan 4s</h3>
+        <p class="sizes">Sizes: 8, 9, 10</p>
+        <button class="add-cart-btn" onclick="addToCart('Jordan 4s', 8900)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-img-wrap">
+         <img src="ss1.jpg" alt="Sports Shoes">
+         <span class="price-badge">Rs. 6900</span>
+        </div>
+        <h3>Nike Giannis</h3>
+        <p class="sizes">Sizes: 7, 8, 9, 10</p>
+        <button class="add-cart-btn" onclick="addToCart('Nike Giannis', 6900)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-img-wrap">
+         <img src="NB.jpg" alt="Sports Shoes">
+         <span class="price-badge">Rs. 11900</span>
+        </div>
+        <h3>New Balance 530</h3>
+        <p class="sizes">Sizes: 7, 8, 9, 10</p>
+        <button class="add-cart-btn" onclick="addToCart('New Balance 530', 11900)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-img-wrap">
+         <img src="ss3.jpg" alt="Sports Shoes">
+         <span class="price-badge">Rs. 6900</span>
+        </div>
+        <h3>Nike Giannis</h3>
+        <p class="sizes">Sizes: 7, 8, 9, 10</p>
+        <button class="add-cart-btn" onclick="addToCart('Nike Giannis', 6900)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-img-wrap">
+         <img src="NK.jpg" alt="Sports Shoes">
+         <span class="price-badge">Rs. 9900</span>
+        </div>
+        <h3>Nike PG3</h3>
+        <p class="sizes">Sizes: 7, 8, 9, 10</p>
+        <button class="add-cart-btn" onclick="addToCart('Nike PG3', 9900)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-img-wrap">
+         <img src="fs1.jpg" alt="Formal Shoes">
+         <span class="price-badge">Rs. 6900</span>
+        </div>
+        <h3>ankle strap thick heel sandals</h3>
+        <p class="sizes">Sizes: 5, 6, 7, 8</p>
+        <button class="add-cart-btn" onclick="addToCart('ankle strap thick heel sandals', 6900)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-img-wrap">
+         <img src="fs2.jpg" alt="Formal Shoes">
+         <span class="price-badge">Rs. 9900</span>
+        </div>
+        <h3>Leather Derby Shoe</h3>
+        <p class="sizes">Sizes: 7, 8, 9, 10</p>
+        <button class="add-cart-btn" onclick="addToCart('Leather Derby Shoe', 9900)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-img-wrap">
+         <img src="fs3.jpg" alt="Formal Shoes">
+         <span class="price-badge">Rs. 7900</span>
+        </div>
+        <h3>Flat Casual & Professional Shoess</h3>
+        <p class="sizes">Sizes: 7, 8, 9, 10</p>
+        <button class="add-cart-btn" onclick="addToCart('Flat Casual & Professional Shoess', 7900)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-img-wrap">
+         <img src="formalshoe.jpg" alt="Formal Shoes">
+         <span class="price-badge">Rs. 9000</span>
+        </div>
+        <h3>Men Leather Shoe</h3>
+        <p class="sizes">Sizes: 7, 8, 9, 10</p>
+        <button class="add-cart-btn" onclick="addToCart('Men Leather Shoe', 9000)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-img-wrap">
+         <img src="s1.jpg" alt="Slippers">
+         <span class="price-badge">Rs. 7900</span>
+        </div>
+        <h3>Slides</h3>
+        <p class="sizes">Sizes: 6, 7, 8, 9, 10</p>
+        <button class="add-cart-btn" onclick="addToCart('Slides', 7900)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-img-wrap">
+         <img src="s2.jpg" alt="Slippers">
+         <span class="price-badge">Rs. 7900</span>
+        </div>
+        <h3>Yeezy slides</h3>
+        <p class="sizes">Sizes: 7, 8, 9, 10</p>
+        <button class="add-cart-btn" onclick="addToCart('Yeezy slides', 7900)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-img-wrap">
+         <img src="s3.jpg" alt="Slippers">
+         <span class="price-badge">Rs. 5900</span>
+        </div>
+        <h3>Unisex Home Slippers</h3>
+        <p class="sizes">Sizes: 5, 6, 7, 8, 9, 10</p>
+        <button class="add-cart-btn" onclick="addToCart('Unisex Home Slippers', 5900)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <div class="product-img-wrap">
+         <img src="s4.jpg" alt="Slippers">
+         <span class="price-badge">Rs. 4900</span>
+        </div>
+        <h3>Women slipper</h3>
+        <p class="sizes">Sizes: 5, 6, 7, 8</p>
+        <button class="add-cart-btn" onclick="addToCart('Women slipper', 4900)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <script>
+
+    // methana function ekak hadala thiynne addtocart kiylla eke json use krla thama local Storage eken data fetch krla gnne
+    function addToCart(productName, price) {
+      let cart = JSON.parse(localStorage.getItem('cart')) || [];
+      let found = cart.find(item => item.name === productName);
+      if (found) {
+        found.quantity += 1;
+      } else {
+        cart.push({ name: productName, price: price, quantity: 1, currency: 'LKR' });
+      }
+      // methanath thiynne eka thaamaa local; storage use krla cart eka update krnw
+      localStorage.setItem('cart', JSON.stringify(cart));
+      updateCartCount();
+      alert(productName + " has been added to your cart! Price: Rs. " + price);
+    }
+    function updateCartCount() {
+
+      // methana karala thiynne cart eke add weeddi adu weddi count eka pennana eka 
+      let cart = JSON.parse(localStorage.getItem('cart')) || [];
+      let count = cart.reduce((sum, item) => sum + item.quantity, 0);
+      document.getElementById('cartCount').textContent = count;
+    }
+    window.onload = updateCartCount;
+  </script>
+     <footer class="footer">
+    <h2>Walkura Shoe Store</h2>
+    <p>Your one-stop online shoe store for sneakers, sports, formal shoes and slippers. Shop 24/7 with convenience.</p>
+    
+    <div class="social-icons">
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube"></a>
+    </div>
+
+    <p class="copyright">&copy; 2025 Walkura. All rights reserved.</p>
+  </footer>
+  <style>
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .footer {
+    background: #222;
+    color: #fff;
+    padding: 40px 20px 20px;
+    margin-top: auto;
+    width: 100%;
+  }
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 13px;
+    color: #aaa;
+  }
+  </style>
+  </body>
+  </html>
